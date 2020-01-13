@@ -19,6 +19,12 @@ public final class Constants {
     public static final int TALON_SRX_ID = 1;
     public static final int LEFT_MOTOR_ID = 2;
     public static final int RIGHT_MOTOR_ID = 3;
+    public static final int INTAKE_MOTOR_ID = 4;
+    public static final int PCM_ID = 6;
+
+    public static final int INTAKE_PISTON_FORWARD_ID = 0;
+    public static final int INTAKE_PISTON_REVERSE_ID = 1;
+
 
     public static final int JOYSTICK1_ID = 0;
     public static final int JOYSTICK2_ID = 1;
