@@ -20,8 +20,8 @@ import frc.robot.Constants;
 public class Intake extends SubsystemBase {
   public static final double INTAKE_SPEED = 0.8;
   private static final double OUTTAKE_SPEED = -0.4;
-  public TalonSRX intakeMotor = new TalonSRX(INTAKE_MOTOR_ID);
-  public DoubleSolenoid intakePiston = new DoubleSolenoid(PCM_ID, INTAKE_PISTON_FORWARD_ID, INTAKE_PISTON_REVERSE_ID);
+  public TalonSRX intakeMotor = new TalonSRX(Constants.INTAKE_MOTOR_ID);
+  public DoubleSolenoid intakePiston = new DoubleSolenoid(Constants.PCM_ID, Constants.INTAKE_PISTON_FORWARD_ID, Constants.INTAKE_PISTON_REVERSE_ID);
 
   public Intake() {
 
@@ -114,6 +114,6 @@ public class Intake extends SubsystemBase {
     
   @Override
   public void periodic() {
-    /
+    //
   }
 }
